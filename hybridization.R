@@ -18,7 +18,7 @@ exiobase_hybridization = function(folder_hybrid,
 
   exio_figaro = get_exiobase_figaro_correspondance(source_tab_pass)
 
-  source_figaro = paste0(folder_figaro,"/flatfile_eu-ic-io_ind-by-ind_24ed_2020.csv")
+  source_figaro = paste0(folder_figaro,"/flatfile_eu-ic-io_ind-by-ind_24ed.csv")
 
   figaro = fread(source_figaro)
 
