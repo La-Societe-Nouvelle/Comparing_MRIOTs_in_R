@@ -18,7 +18,8 @@ exiobase_hybridization = function(folder_hybrid,
 
   exio_figaro = get_exiobase_figaro_correspondance(source_tab_pass)
 
-  source_figaro = paste0(folder_figaro,"/flatfile_eu-ic-io_ind-by-ind_24ed.csv")
+  source_figaro = list.files(folder_figaro,pattern = "flatfile_eu-ic-io_ind-by-ind_24ed",full.names = T) %>%
+    subset(grepl(year,.))
 
   figaro = fread(source_figaro)
 
