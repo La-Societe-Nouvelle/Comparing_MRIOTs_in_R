@@ -16,6 +16,8 @@ The procedure encompasses four key components of the input-output framework: Tra
 
 Users are encouraged to run and customize the procedure by adapting the `main.R` script according to their specific needs.
 
+All resources in this repository are open-source and freely available for use and modification under the specified license.
+
 ## Notes
 
 **Note 1:** Due to EXIOBASE’s outdated and non-bijective classification system, hybridization requires specific weighting adjustments. This procedure applies value-added weightings from FIGARO to ensure consistency.
